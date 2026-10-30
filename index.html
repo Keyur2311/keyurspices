@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <title>Keyur Spices — Pure Unjha Jeera | Gold & Silver Cumin from India's Spice City</title>
-  <meta name="description" content="Keyur Spices brings you premium cumin (jeera) sourced straight from Unjha — Asia's largest seed spice market. Keyur Gold & Silver Jeera, machine-cleaned, quality graded, hygienically packed. Wholesale & retail across India." />
+  <title>Keyur Spices — Pure Unjha Seed Spices | Jeera, Saunf, Ajwain, Til & More</title>
+  <meta name="description" content="Keyur Spices brings you premium seed spices sourced straight from Unjha — Asia's largest seed spice market. Jeera, saunf, ajwain, til, rai, methi, dhaniya, magaj & suva — machine-cleaned, quality graded, hygienically packed." />
   <meta name="theme-color" content="#faf7f0" />
 
   <meta property="og:type" content="website" />
@@ -117,6 +117,27 @@
     .btn-wa{background:var(--wa);color:#fff;justify-content:center}
     .btn-wa:hover{transform:translateY(-3px);box-shadow:0 10px 28px rgba(31,168,85,.4)}
 
+    /* ---------- SPICE RANGE ---------- */
+    .spices-head{text-align:center;max-width:640px;margin:84px auto 44px}
+    .spices-head h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.6rem,3.4vw,2.2rem);line-height:1.2;margin-bottom:10px}
+    .spices-head p{color:var(--muted)}
+    .spices-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .s-card{
+      background:var(--card);border:1px solid rgba(30,38,32,.07);border-radius:18px;
+      padding:24px 18px;text-align:center;display:flex;flex-direction:column;align-items:center;gap:4px;
+      transition:transform .25s,box-shadow .25s,border-color .25s;box-shadow:0 6px 20px rgba(20,50,35,.05);
+    }
+    .s-card:hover{transform:translateY(-5px);box-shadow:var(--shadow);border-color:rgba(27,107,69,.35)}
+    .s-mono{
+      width:46px;height:46px;border-radius:50%;display:grid;place-items:center;
+      background:var(--green-soft);border:1px solid var(--line);color:var(--green);
+      font-family:var(--serif);font-weight:600;font-size:1.15rem;margin-bottom:8px;
+      transition:background .25s,color .25s;
+    }
+    .s-card:hover .s-mono{background:var(--green);color:#fff}
+    .s-card h3{font-size:1.02rem;font-weight:600}
+    .s-sub{font-size:.78rem;color:var(--muted)}
+
     /* ---------- GALLERY ---------- */
     .gallery{background:var(--green-deep);color:#f4f1e8}
     .gallery .kicker{color:#8fd4ae}
@@ -199,6 +220,7 @@
       .why-grid{grid-template-columns:repeat(2,1fr)}
       .about-grid{grid-template-columns:1fr;gap:40px}
       .contact-grid{grid-template-columns:1fr 1fr}
+      .spices-grid{grid-template-columns:repeat(2,1fr)}
       .g-grid{grid-template-columns:repeat(2,1fr);grid-auto-rows:190px}
     }
     @media(max-width:760px){
@@ -255,7 +277,7 @@
     <div>
       <div class="eyebrow reveal"><span class="dot"></span> From Unjha, Gujarat — India's Spice City</div>
       <h1 class="reveal d1">Pure Unjha Jeera, <em>straight from the source.</em></h1>
-      <p class="lead reveal d2">Keyur Spices brings you premium cumin — machine-cleaned, quality-graded and hygienically packed — from Asia's largest seed spice market to kitchens across India.</p>
+      <p class="lead reveal d2">Keyur Spices brings you premium seed spices — jeera, saunf, ajwain, til and more — machine-cleaned, quality-graded and hygienically packed, from Asia's largest seed spice market to kitchens across India.</p>
       <div class="cta-row reveal d3">
         <a class="btn btn-green" href="https://wa.me/919825429495?text=Hi%20Keyur%20Spices%2C%20I%20want%20to%20enquire%20about%20Keyur%20Gold%20Jeera." target="_blank" rel="noopener">
           Enquire on WhatsApp
@@ -303,7 +325,7 @@
     <div class="sec-head reveal">
       <div class="kicker">Our Products</div>
       <h2>Two grades. One promise of purity.</h2>
-      <p>Every pack is filled with cumin sourced directly from Unjha's famous market yards — cleaned, graded and sealed for freshness.</p>
+      <p>Every pack is filled with spices sourced directly from Unjha's famous market yards — cleaned, graded and sealed for freshness.</p>
     </div>
     <div class="products-grid">
       <div class="p-card reveal">
@@ -336,6 +358,41 @@
           </a>
         </div>
       </div>
+    </div>
+
+    <div class="spices-head reveal">
+      <div class="kicker">The Full Basket</div>
+      <h2>Nine seed spices, one trusted source.</h2>
+      <p>From Unjha's market yards — tap any spice to enquire on WhatsApp.</p>
+    </div>
+    <div class="spices-grid">
+      <a class="s-card reveal" href="https://wa.me/919825429495?text=Hi%20Keyur%20Spices%2C%20I%20want%20to%20enquire%20about%20Jeera%20(Cumin)." target="_blank" rel="noopener">
+        <span class="s-mono">J</span><h3>Jeera</h3><span class="s-sub">Cumin</span>
+      </a>
+      <a class="s-card reveal d1" href="https://wa.me/919825429495?text=Hi%20Keyur%20Spices%2C%20I%20want%20to%20enquire%20about%20Ajwain%20(Carom%20Seeds)." target="_blank" rel="noopener">
+        <span class="s-mono">A</span><h3>Ajwain</h3><span class="s-sub">Carom Seeds</span>
+      </a>
+      <a class="s-card reveal d2" href="https://wa.me/919825429495?text=Hi%20Keyur%20Spices%2C%20I%20want%20to%20enquire%20about%20Saunf%20(Fennel)." target="_blank" rel="noopener">
+        <span class="s-mono">S</span><h3>Saunf</h3><span class="s-sub">Fennel</span>
+      </a>
+      <a class="s-card reveal" href="https://wa.me/919825429495?text=Hi%20Keyur%20Spices%2C%20I%20want%20to%20enquire%20about%20Til%20(Sesame)." target="_blank" rel="noopener">
+        <span class="s-mono">T</span><h3>Til</h3><span class="s-sub">Sesame</span>
+      </a>
+      <a class="s-card reveal d1" href="https://wa.me/919825429495?text=Hi%20Keyur%20Spices%2C%20I%20want%20to%20enquire%20about%20Rai%20(Mustard)." target="_blank" rel="noopener">
+        <span class="s-mono">R</span><h3>Rai</h3><span class="s-sub">Mustard</span>
+      </a>
+      <a class="s-card reveal d2" href="https://wa.me/919825429495?text=Hi%20Keyur%20Spices%2C%20I%20want%20to%20enquire%20about%20Methi%20(Fenugreek)." target="_blank" rel="noopener">
+        <span class="s-mono">M</span><h3>Methi</h3><span class="s-sub">Fenugreek</span>
+      </a>
+      <a class="s-card reveal" href="https://wa.me/919825429495?text=Hi%20Keyur%20Spices%2C%20I%20want%20to%20enquire%20about%20Dhaniya%20(Coriander)." target="_blank" rel="noopener">
+        <span class="s-mono">D</span><h3>Dhaniya</h3><span class="s-sub">Coriander</span>
+      </a>
+      <a class="s-card reveal d1" href="https://wa.me/919825429495?text=Hi%20Keyur%20Spices%2C%20I%20want%20to%20enquire%20about%20Magaj%20(Watermelon%20Seeds)." target="_blank" rel="noopener">
+        <span class="s-mono">W</span><h3>Magaj</h3><span class="s-sub">Watermelon Seeds</span>
+      </a>
+      <a class="s-card reveal d2" href="https://wa.me/919825429495?text=Hi%20Keyur%20Spices%2C%20I%20want%20to%20enquire%20about%20Suva%20(Dill%20Seeds)." target="_blank" rel="noopener">
+        <span class="s-mono">S</span><h3>Suva</h3><span class="s-sub">Dill Seeds</span>
+      </a>
     </div>
   </div>
 </section>
@@ -404,11 +461,11 @@
       <div class="kicker reveal">Our Roots</div>
       <h2 class="reveal">Born in Unjha — <em>India's spice city.</em></h2>
       <p class="reveal d1">Unjha in North Gujarat is home to Asia's largest seed spice market. The cumin and fennel traded here set benchmark prices for the whole country — and the region's farms produce some of the finest jeera in the world.</p>
-      <p class="reveal d1">Keyur Spices was born in this tradition. We source the best lots right at the source, process them with care, and pack them under our own two brands — <strong>Gold</strong> for premium buyers and <strong>Silver</strong> for everyday value.</p>
+      <p class="reveal d1">Keyur Spices was born in this tradition. We source the best lots right at the source, process them with care, and trade a full basket of seed spices — <strong>jeera, ajwain, saunf, til, rai, methi, dhaniya, magaj and suva</strong> — under our own brand, with <strong>Gold</strong> and <strong>Silver</strong> grades for our flagship cumin.</p>
       <div class="about-stats reveal d2">
-        <div class="stat"><b>2</b><span>Brand grades</span></div>
-        <div class="stat"><b>1KG</b><span>Pack size</span></div>
-        <div class="stat"><b>100%</b><span>Pure jeera</span></div>
+        <div class="stat"><b>9</b><span>Seed spices</span></div>
+        <div class="stat"><b>2</b><span>Jeera grades</span></div>
+        <div class="stat"><b>100%</b><span>Pure &amp; graded</span></div>
       </div>
     </div>
   </div>
@@ -445,7 +502,7 @@
         <div class="c-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 1116 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
         <h3>Where we are</h3>
         <p>7, 1st Floor, Umiya Bhavan,<br/>Railway Station Road,<br/>Unjha, Gujarat 384170</p>
-        <a class="link" href="https://www.google.com/maps/place/Keyur+Agri+Commodities+Solution+co./@23.8013737,72.3818144,17z" target="_blank" rel="noopener">Open in Google Maps →</a>
+        <a class="link" href="https://www.google.com/maps/place/Keyur+Agri+Commodities+Solution+co./@23.8013737,72.3818144,17z/data=!3m1!4b1!4m6!3m5!1s0x395c5f0d07c2fdbb:0x7a76431abff51395!8m2!3d23.8013737!4d72.3818144!16s%2Fg%2F11qg9t3dkr" target="_blank" rel="noopener">Open in Google Maps →</a>
       </div>
     </div>
     <div class="map-wrap reveal">
